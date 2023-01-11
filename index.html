@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Canary Creams</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="banner">
+            <h1 class="header-name">Canary Creams 🧁</h1>
+        </header>
+        <main>
+            <section class="cart-items" id="cart"></section>
+            <div id="payment" class="payment">
+                <form id="payment_form">
+                    <h3>Enter Card Details</h3>
+                    <label for="username"></label>
+                    <input type="text" id="input" class="username" name="username" placeholder="Enter your name" required><br/>
+                    <label for="card"></label>
+                    <input type="number" id="input" class="card" name="card" placeholder="Enter card number" maxlength="16" minlength="16" required><br/>
+                    <label for="cvv"></label>
+                    <input type="number" id="input" class="cvv" name="cvv" placeholder="Enter CVV" maxlength="4" minlength="4" required> <br/>
+                    <button type="submit" value="submit" id="pay" class="pay"></button>                   
+                </form>
+            </div>
+            <section class="food-items" id="items"></section>
+            
+        </main>
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>

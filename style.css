@@ -1,0 +1,265 @@
+*{ 
+    margin: 0; 
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+body{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background: url("https://s1.1zoom.me/b6458/875/Cake_Colored_background_Design_Multicolor_561450_3840x2160.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding:2em;
+}
+
+.header-name{
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Lucida Sans';
+    color: #944208;
+        text-shadow: 2px 2px sandybrown;
+}
+
+.food-items{
+    width: 90%;
+    display: block;
+    margin-top: 1.1em;
+}
+.item{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    line-height: 53px;
+}
+.item-img{
+    width: 26%;
+    display:block;
+}
+.add, .sub{
+    width: 1.8em;
+    height: 1.8em;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.add:hover{
+    background-color: pink;
+}
+
+.sub:hover{
+    background-color: red;
+}
+
+.item-name{
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+.item-ing{
+    color: rgb(141, 136, 136);
+    font-family: sans-serif;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.cart-header{
+    text-align: center;
+    margin-top: .5em;
+    font-family: 'Lucida Sans';
+}
+.cart-items{
+    width: 34em;
+    height: auto;
+    font-size: 1.1em;
+    position: fixed;
+    display: block;
+    margin-left: 38em;
+    border: 1px solid gainsboro;
+    border-radius:2%;
+    background-color: #b9137163;
+}
+
+.cart-item{
+    margin: 1.6em 3.5em;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+}
+
+.total-element{
+    margin: 1.6em 3.5em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+
+.confirm-order{
+    margin: 13px;
+    padding: 13px;
+    width: 34rem;
+    font-size: 1.2em;
+    color: gainsboro;
+    border:transparent;
+    background: linear-gradient(to bottom left,#B91372, #6B0F1A );
+}
+.confirm-order:hover{
+    padding: 14px;
+    font-size: 1.3em;
+}
+
+.payment{
+    width: 34%;
+    height: fit-content;
+    font-size: 1.1em;
+    position: fixed;
+    display:none;
+    margin-left: 64%;
+    border: 1px solid gainsboro;
+    border-radius:2%;
+    background-color: #b9137163;
+    text-align: center;
+}
+form{
+    margin: 16px;
+    height: max-content;
+}
+input{
+   margin: 5px;
+   width: 90%;
+   padding: 18px;
+}
+
+.pay{
+    padding: 5px;
+    width: 100%;
+    font-size: 1.2em;
+    color: gainsboro;
+    border:transparent;
+    background: linear-gradient(to bottom left,#B91372, #6B0F1A );
+}
+
+.pay:hover{
+    padding: 6px;
+    font-size: 1.3em;
+}
+
+
+/*Mobile breakpoints*/
+@media (max-width:600px){
+    *{
+        height: auto;
+    }
+    .banner{
+        height: 10em;
+    }
+
+    .header-name{
+        text-align: start;
+        font-size: 4rem;
+        
+    }
+
+    .item{
+        font-size: .8em;
+        line-height: 35px;
+    }
+
+    .item-img{
+        width: 100%;
+    }
+
+    .cart-items{
+        margin: auto;
+        margin-top: 4%;
+        max-width: 100%;
+        position:relative;
+        font-size: 1em;
+    }
+    .confirm-order{
+        width: 50%;
+    }
+
+    .payment{
+        margin: auto;
+        margin-top: 4%;
+        width: 100%;
+        position:relative;
+        font-size: 1em;
+    }
+    
+}
+
+/*Tablet breakpoints */
+
+@media (max-width:900px) and (min-width:601px){
+    .banner{
+        height: 14em;
+    }
+
+    .header-name{
+        font-size: 6rem;
+    }
+    .item{
+        font-size: 1.6em;
+        line-height: 65px;
+        
+    }
+    .item-img{
+        width: 100%;
+    }
+
+    .add, .sub{
+        width: 3em;
+        height: 3em;
+        font-size: 1.3rem;
+    }
+
+    .cart-items{
+        width: 100%;
+        margin: auto;
+        margin-top: 4%;
+        max-width: 100%;
+        position:relative;
+        font-size: 1.6em;
+    }
+    .confirm-order{
+        width: 50%;
+    }
+
+    .payment{
+        margin: auto;
+        width: 100%;
+        position:relative;
+        margin-top: 4%;
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width:1024px) and (min-width:901px){
+    .cart-items{
+        margin-left: 58%;
+        width: 23em;
+    }
+
+    .confirm-order{
+        width: 94%;
+    }
+
+    .payment{
+        margin-left: 58%;
+        width: 23em;
+        
+    }
+}
