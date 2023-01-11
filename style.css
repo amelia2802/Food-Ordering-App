@@ -182,7 +182,6 @@ input{
 
     .cart-items{
         margin: auto;
-        margin-top: 4%;
         max-width: 100%;
         position:relative;
         font-size: 1em;
@@ -193,7 +192,6 @@ input{
 
     .payment{
         margin: auto;
-        margin-top: 4%;
         width: 100%;
         position:relative;
         font-size: 1em;
@@ -229,7 +227,6 @@ input{
     .cart-items{
         width: 100%;
         margin: auto;
-        margin-top: 4%;
         max-width: 100%;
         position:relative;
         font-size: 1.6em;
@@ -242,7 +239,6 @@ input{
         margin: auto;
         width: 100%;
         position:relative;
-        margin-top: 4%;
         font-size: 1.6em;
     }
 }
