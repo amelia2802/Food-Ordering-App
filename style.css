@@ -193,11 +193,15 @@ input{
 
     .payment{
         margin: auto;
-        max-width: 100%;
+        width: fit-content;
         height:fit-content;
         position:relative;
         font-size: 1em;
-        transform: scaleY(1.5);
+        transform: scaleY(2);
+    }
+    
+    input{
+        background-color:white;
     }
     
 }
