@@ -185,6 +185,7 @@ input{
         max-width: 100%;
         position:relative;
         font-size: 1em;
+        top:0;
     }
     .confirm-order{
         width: 50%;
@@ -195,6 +196,7 @@ input{
         width: 100%;
         position:relative;
         font-size: 1em;
+        top:0;
     }
     
 }
