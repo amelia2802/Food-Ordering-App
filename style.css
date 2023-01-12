@@ -193,10 +193,11 @@ input{
 
     .payment{
         margin: auto;
-        width: 100%;
+        max-width: 100%;
+        height:fit-content;
         position:relative;
         font-size: 1em;
-        transform: scaleY(3);
+        transform: scaleY(1.5);
     }
     
 }
