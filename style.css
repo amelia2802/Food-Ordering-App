@@ -196,7 +196,7 @@ input{
         width: 100%;
         position:relative;
         font-size: 1em;
-        top:0;
+        transform: scaleY(3);
     }
     
 }
