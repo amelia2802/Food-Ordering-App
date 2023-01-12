@@ -5,7 +5,7 @@ Food ordering app built with HTML, CSS, and JavaScript would allow users to brow
 ![desktopview](https://user-images.githubusercontent.com/49182604/211992495-e4cd986a-4c58-462d-a533-c3ae580d0dbe.jpg)
 [Live Site](https://canary-creams.netlify.app/)
 
-Tools/Technology:
+# Tools/Technology:
 - HTML
 - CSS
 - JavaScript
